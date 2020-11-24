@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/button2.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+	background-color: rgb(211, 211, 211);
+	color: rgb(30, 30, 30);
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+	color: ;
+	font-weight: 100;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2{
+	color: rgb(100, 100, 100);
+	font-size: 69
+	font-size: 24px;
+	font-weight: 500;
+}
+
+h4 {
+	font-weight: lighter;
+	font-size: 14px;
+	margin: 0px;
+	padding-bottom: 40px;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 20px;
+
+}
+a:hover {
+	color: white;
+}
+
+
+/*Custom design with class*/
+.container {
+	width: 700px;
+	margin: 10px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 550px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.btn-blue {
+	background-color: #004AAD;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px
+}
+
+.btn-blue:hover {
+	background-color: #38B6FF;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(200, 200, 200);
+}
+.list-inline i:hover {
+	color: green;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+	text-align: justify;
+}
+
+#cards p {
+	margin-bottom: 40px;
+	text-align: center;
+	padding: 10px;
+}
+
+.home-category{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 18vh 0px;
+
